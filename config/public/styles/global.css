@@ -1,0 +1,29 @@
+:root {
+  --73f6KsS6: #E6E2F0;
+  --4H2QT2yv: #3C184E;
+  --61i0cWcm: #713FFF;
+  --t763WGpZ: #FFFFFF;
+}
+
+.helpdog {
+  background: var(--73f6KsS6);
+  color: var(--4H2QT2yv);
+}
+
+._vetvy {
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+._vetvy:hover {
+  transition: all .5s;
+  color: var(--61i0cWcm);
+}
+
+._vetvy:focus {
+  transition: all .5s;
+  color: var(--61i0cWcm);
+
+ outline: dashed 2px var(--61i0cWcm);
+}
